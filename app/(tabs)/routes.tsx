@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 export default function FavoritesTab() {
   return (
     <View>
-      <Text>Favorites</Text>
+      <Text>Routes</Text>
       {/* Add favorite buses here */}
     </View>
   );
