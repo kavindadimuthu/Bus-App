@@ -105,12 +105,14 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     position: 'relative',
-    height: 350,
+    height: 280,
   },
   headerImage: {
     width: '100%',
-    height: 300,
+    height: 230,
     position: 'absolute',
+    top: -30,
+    // bottom: 0,
   },
   backButton: {
     position: 'absolute',
@@ -137,6 +139,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 4,
+    textAlign: 'left',
   },
   welcomeSubtitle: {
     color: 'white',
@@ -180,12 +183,12 @@ const styles = StyleSheet.create({
     borderColor: 'white',
   },
   cardTitle: {
-    fontSize: 15,
+    fontSize: 14,
     fontWeight: 'bold',
     marginBottom: 4,
   },
   locationText: {
-    fontSize: 14,
+    fontSize: 13,
     color: '#555',
   },
   searchCard: {
@@ -225,9 +228,9 @@ const styles = StyleSheet.create({
     width: '23%',
   },
   featureIconContainer: {
-    width: 50,
-    height: 50,
-    borderRadius: 25,
+    width: 65,
+    height: 65,
+    borderRadius: 40,
     backgroundColor: '#1a73e8',
     justifyContent: 'center',
     alignItems: 'center',
